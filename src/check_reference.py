@@ -2,8 +2,8 @@ from Bio import SeqIO
 
 # 1. NCBI Complete Record 읽기
 record = SeqIO.read(
-    "data/HBB_reference.gb",
-    "genbank"
+    "data/sequence.fasta",
+    "fasta"
 )
 
 # 2. CDS 영역 찾기
